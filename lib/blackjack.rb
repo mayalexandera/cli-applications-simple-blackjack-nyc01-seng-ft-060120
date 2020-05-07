@@ -23,7 +23,8 @@ def end_game
 end
 
 def initial_round
-  # code #initial_round here
+  input = gets.chomp
+  input
 end
 
 def hit?
