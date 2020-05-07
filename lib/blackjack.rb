@@ -37,8 +37,8 @@ def hit?(curr_card)
   else if result === "h"
     curr_sum = card_total +deal_card()
     return curr_sum
-  else result === "s"
-    initial_round()
+  else
+    invalid_round()
   end
   display_card_total()
 end
