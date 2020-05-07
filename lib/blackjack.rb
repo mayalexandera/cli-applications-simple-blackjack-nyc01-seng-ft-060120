@@ -53,7 +53,7 @@ end
 
 def runner
   welcome()
-  initial_round()
+  curr_sum = initial_round()
   hit?()
   display_card_total()
 end
