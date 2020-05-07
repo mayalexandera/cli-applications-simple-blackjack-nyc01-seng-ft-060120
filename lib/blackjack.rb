@@ -25,8 +25,7 @@ end
 
 def initial_round
   round_total = 0
-  round_total += display_card_total
-  round_total += display_card_total
+  2.times do round_total += display_card_total
   round_total
   
 end
