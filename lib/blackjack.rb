@@ -30,7 +30,7 @@ end
 def hit?(curr_card)
   prompt_user()
   result = get_user_input()
-  card_total = curr_card
+  # card_total = curr_card
   
   if result === 's'
     return curr_card
@@ -46,7 +46,6 @@ end
 
 def invalid_command
   puts 'Please enter a valid command'
-  # prompt_user()
 end
 
 #####################################################
