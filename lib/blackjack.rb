@@ -33,7 +33,9 @@ def hit?(curr_card)
   result = get_user_input()
   card_total = curr_card
   if result === "h"
-    card_total += deal_card()
+    curr_sum = card_total +deal_card()
+  else result === "s"
+    initial_round()
   end
   display_card_total()
 end
