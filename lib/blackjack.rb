@@ -26,8 +26,8 @@ end
 def initial_round
   round_total = 0
   2.times do round_total += display_card_total
+  end
   round_total
-end
   
 end
 
