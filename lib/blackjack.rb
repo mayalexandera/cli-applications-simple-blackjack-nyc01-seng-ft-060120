@@ -40,7 +40,6 @@ def hit?(curr_card)
   else
     invalid_command()
   end
-  display_card_total()
 end
 
 def invalid_command
