@@ -31,17 +31,7 @@ def hit?(curr_card)
   prompt_user()
   result = get_user_input()
   card_total = curr_card
-
-    if result == 's'
-      return myNumber 
-    elsif result == 'h'
-      sumInit = myNumber + deal_card()
-      return sumInit
-    else
-      invalid_command()
-      prompt_user()
-    end
-end
+  
   if result == 's'
     return curr_card
   elsif result == "h"
@@ -49,12 +39,12 @@ end
     return curr_sum
   else
     invalid_command()
-    prompt_user()
   end
 end
 
 def invalid_command
   puts 'Please enter a valid command'
+  prompt_user()
 end
 
 #####################################################
