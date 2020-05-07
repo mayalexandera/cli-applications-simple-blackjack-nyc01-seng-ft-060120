@@ -32,9 +32,9 @@ def hit?(curr_card)
   result = get_user_input()
   card_total = curr_card
   
-  if result == 's'
+  if result === 's'
     return curr_card
-  elsif result == "h"
+  elsif result === "h"
     curr_sum = curr_card + deal_card()
     return curr_sum
   else
