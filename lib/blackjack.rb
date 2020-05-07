@@ -28,6 +28,7 @@ def initial_round
   num1 = deal_card
   num2 = deal_card
   round_total = num1 + num2
+  return round_total
   
   display_card_total(round_total)
   # puts "Your cards add up to #{round_total}."
