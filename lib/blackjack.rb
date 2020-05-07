@@ -31,6 +31,7 @@ end
 def hit?
   prompt_user()
   get_user_input()
+  display_card_total
 end
 
 def invalid_command
