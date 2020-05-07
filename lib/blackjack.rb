@@ -31,10 +31,10 @@ end
 def hit?
   prompt_user
   get_user_input
-  if get_user_input() === "h"
-    deal_card()
+  if get_user_input === "h"
+    deal_card
   end
-  display_card_total()
+  display_card_total
 end
 
 def invalid_command
