@@ -29,7 +29,7 @@ def initial_round
   round_total = num1 + num2
   return round_total
   
-  print display_card_total(round_total)
+  display_card_total(round_total)
   
 end
 
