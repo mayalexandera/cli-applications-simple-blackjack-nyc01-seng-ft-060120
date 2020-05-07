@@ -27,7 +27,7 @@ def initial_round
   round_total = 0
   2.times do round_total += deal_card
   end
-  round_total
+  puts "Your cards add up to #{round_total}."
   
 end
 
