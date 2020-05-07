@@ -35,7 +35,7 @@ def hit?(curr_card)
   if result == 's'
     return curr_card
   elsif result == "h"
-    curr_sum = card_total + deal_card()
+    curr_sum = curr_card + deal_card()
     return curr_sum
   else
     invalid_command()
