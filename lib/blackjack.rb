@@ -24,6 +24,10 @@ def end_game(total)
 end
 
 def initial_round
+  round_total = 0
+  round_total += display_card_total
+  round_total += display_card_total
+  round_total
   
 end
 
