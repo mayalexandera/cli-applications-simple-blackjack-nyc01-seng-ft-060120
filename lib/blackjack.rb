@@ -27,21 +27,34 @@ def initial_round
   display_card_total(deal_card() + deal_card())
 end
 
-def hit?(curr_card)
+def hit?(myNumber)
   prompt_user()
   result = get_user_input()
-  card_total = curr_card
-  
-  if result == 's'
-    return curr_card
-  elsif result == "h"
-    curr_sum = card_total + deal_card()
-    return curr_sum
-  else
-    invalid_command()
-    prompt_user()
-  end
+  card_total = myNumber
+    if result == 's'
+      return myNumber 
+    elsif result == 'h'
+      sumInit = myNumber + deal_card()
+      return sumInit
+    else
+      invalid_command()
+    end
 end
+# def hit?(curr_card)
+#   prompt_user()
+#   result = get_user_input()
+#   card_total = curr_card
+  
+#   if result == 's'
+#     return curr_card
+#   elsif result == "h"
+#     curr_sum = card_total + deal_card()
+#     return curr_sum
+#   else
+#     invalid_command()
+#     prompt_user()
+#   end
+# end
 
 def invalid_command
   puts 'Please enter a valid command'
