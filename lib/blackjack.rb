@@ -25,7 +25,7 @@ end
 
 def initial_round
   round_total = deal_card + deal_card
-  round_total
+  display_card_total(round_total)
   # puts "Your cards add up to #{round_total}."
   
 end
