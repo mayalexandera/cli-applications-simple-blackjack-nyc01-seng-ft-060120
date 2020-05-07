@@ -21,7 +21,7 @@ end
 
 def end_game
   puts "Sorry"
-  display_card_total(total)
+  display_card_total
   puts "thank you"
 end
 
