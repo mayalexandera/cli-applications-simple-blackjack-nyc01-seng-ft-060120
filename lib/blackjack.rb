@@ -38,7 +38,7 @@ def hit?(curr_card)
     curr_sum = card_total +deal_card()
     return curr_sum
   else
-    invalid_round()
+    invalid_command()
   end
   display_card_total()
 end
