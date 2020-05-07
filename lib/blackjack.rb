@@ -39,7 +39,7 @@ def hit?(curr_card)
     return curr_sum
   else
     invalid_command()
-    puts prompt_user()
+    return prompt_user()
   end
 end
 
