@@ -15,7 +15,8 @@ def prompt_user
 end
 
 def get_user_input
-  # code #get_user_input here
+  input = gets.chomp
+  input
 end
 
 def end_game
@@ -23,8 +24,7 @@ def end_game
 end
 
 def initial_round
-  gets.chomp = input
-  input
+  
 end
 
 def hit?
