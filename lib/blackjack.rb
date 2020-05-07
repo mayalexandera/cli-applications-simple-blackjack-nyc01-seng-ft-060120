@@ -29,8 +29,8 @@ def initial_round
 end
 
 def hit?(curr_card)
-  prompt_user
-  result = get_user_input
+  prompt_user()
+  result = get_user_input()
   if result === "h"
     deal_card
   end
