@@ -55,7 +55,7 @@ def runner
   welcome()
   curr_sum = initial_round()
   if curr_sum < 21
-    hit?()
+    hit?(number)
     display_card_total()
   elsif 
 end
