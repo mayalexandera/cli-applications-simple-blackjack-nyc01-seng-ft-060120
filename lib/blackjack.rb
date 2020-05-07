@@ -3,9 +3,7 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
-end
-
+  return (1..11).rand
 def display_card_total
   # code #display_card_total here
 end
