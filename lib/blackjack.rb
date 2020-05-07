@@ -30,8 +30,8 @@ end
 
 def hit?(curr_card)
   prompt_user
-  get_user_input
-  if get_user_input === "h"
+  result = get_user_input
+  if result === "h"
     deal_card
   end
   display_card_total()
