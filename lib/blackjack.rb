@@ -23,7 +23,7 @@ def end_game
 end
 
 def initial_round
-  input = gets.chomp
+  gets.chomp = input
   input
 end
 
